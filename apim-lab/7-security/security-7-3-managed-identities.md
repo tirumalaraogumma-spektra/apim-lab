@@ -179,6 +179,10 @@ In this task, you will test the newly created operation in the developer portal 
 
 1. Notice the request URL will be similar to: **https://apim-dev-hol-ms-<inject key="Deployment ID" enableCopy="false" />.azure-api.net/sw/favorite**
 
+1. In the APIs section, select Star Wars and choose the **Get favorite person (1)** operation, then click on **Try this operation (2)**. Finally, paste the **Unlimited or Starter key** you copied to Notepad in earlier task into the **subscription field (3)** and scroll down to click **send** button to
+
+    ![](media/get-favorite-person.png)
+
 ---
 ### Summary 
 

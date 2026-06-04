@@ -72,6 +72,8 @@ CORS is enabled by using policies. We will go deeper on this topic in later exer
 
       ![](media/cors.png)
 
+      ![](media/cors-enabled.png)
+
 ---
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
@@ -111,7 +113,7 @@ In order to do this, we recommend opening the **Developer portal** in a **privat
 
       ![APIM Developer Portal Sign-up](media/p2t3.1s1.png)
 
-      ![APIM Developer Portal Sign-up](media/p3t3.1p1.png)
+      ![APIM Developer Portal Sign-up](media/signup.png)
 
 1. Check your inbox for the acceptance email and confirm to activate your account.
 
@@ -123,11 +125,17 @@ In order to do this, we recommend opening the **Developer portal** in a **privat
 
 1. Click on **Products**, then select the **Starter** product.
 
+      - **Starter Product:** Automatically approved so developers can start testing immediately with low usage limits.
+
       ![APIM Developer Portal Sign-up](media/p2t3.1s4.png)
 
 1. Enter `Starter` **(1)** as the subscription name, then press **Subscribe (2)**. You should receive a confirmation email shortly.
 
       ![](../1-apim-creation/media/E2T3.1S5-0109.png)
+
+1. The Starter is added in **subscriptions (2)** and check under **profile (1)** 
+
+      ![](media/sub-added.png)
 
 1. Next, click back on **Products**, then select the  **Unlimited** product.
 
@@ -137,9 +145,17 @@ In order to do this, we recommend opening the **Developer portal** in a **privat
 
       ![](media/E2T3.1S7-0109.png)
 
+1. After Subscribing the Unlimited product is added to products and status will be inactive. 
+
+      ![](media/unlimited-approve-request.png)
+
       > **Note:** The `Unlimited` subscription requires admin approval.
 
-1. You should receive an email confirming your subscription request.
+      >**Unlimited Product:** Requires admin approval to prevent abuse and control cloud costs, as it allows unrestricted API access.
+
+1. You should receive an email confirming your subscription request. 
+
+Then in next task will you complete the approval process for that subscription request.
 
 ### Task 3.2: Approving Subscriptions
 
@@ -165,7 +181,7 @@ It's now time to test one of the published APIs.
 
 1. Return to the browser tab with the API Management Service open, select **APIs (1)** from the left pane, and then click **Echo API (2)**.
 
-1. Test the **Echo API (3)** using the POST verb by pressing **Test (4)** tab, using the defaults, then pressing **Send (5)** at the bottom.
+1. Test the Echo API using the **POST create resource (3)** under **Test (4)** tab, leaving the defaults, then click **Send (5)** at the bottom to request.
 
       ![APIM Developer Portal Try API](<media/p2t3.3s2.png>)
 

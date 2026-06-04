@@ -126,13 +126,15 @@ There can be multiple Gateway Deployments and multiple Gateway Nodes.  The Gatew
 
     ![](media/p26t4.2p6.png)
 
-1. On the **Welcome to Postman!** page, enter **Odl_User (1)** as your name, choose your role **(2)**, and click **Continue (3)**. Then select **Continue with free plan**.
+1. On the **Welcome to Postman!** page, enter **Odl_User (1)** as your name, In I'd like to field select **test APIs (2)** or anything from  the list and choose your role **(3)**, and select the team size as **1 member (4)** after that select any prompt like **Test API (5) and click on **Get Started with AI (6)**
 
-    ![](media/postman-0309.png)
+    ![](media/post-man-welcome-page.png)
+
+     ![](media/post-man-welcome-p2.png)
 
 1. Inside the **Postman**, click on **Workspaces (1)** drop-down and select **odl-user-<inject key="Deployment ID" enableCopy="false" /> (2)** workspace
 
-    ![](media/postman2-0309.png)
+    ![](media/workspace-select.png)
 
 1. On the **My Workspace** page, select **New (1)** and select **HTTP (2)**.
 

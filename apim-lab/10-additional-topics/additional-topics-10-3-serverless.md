@@ -10,11 +10,11 @@ Azure Serverless (Functions and Logic Apps) can be configured to benefit from th
 
    ![](media/E8T3.1S1-1901.png)
 
-1. Click on **+ Create**. Select **Consumption (1)** option and click on **Select (2)**.
+1. Click on **+ Create**. Select **Consumption (Windows) (1)** option and click on **Select (2)**.
 
    > **Note:** On the confirmation window, click on **Confirm**.
 
-   ![](media/E9T3.1S1-0309.png)
+   ![]( media/functiion-consumption.png)
 
 1. On the **Create Function App** page, enter the following details:
 
@@ -31,7 +31,7 @@ Azure Serverless (Functions and Logic Apps) can be configured to benefit from th
 
 1. Click on **Create**.  Once the Resource is created, click on **Go to resource**.
    
-1. Open **Visual Studio Code** from your LabVM.
+1. Open **Visual Studio Code** from your LabVM. If welcome to VScode page appear you close that by clicking the close **X** button.
 
    ![](media/p25t3.1p4.png)
 
@@ -153,9 +153,9 @@ Azure Serverless (Functions and Logic Apps) can be configured to benefit from th
 
    ![](media/E8T3.2S1-1901.png)
 
-1. Click on **+ Add (1)**. On the Create Logic App page, click on **Consumption (3)** and **Select (3)**.
+1. Click on **+ create (1)**. On the Create Logic App page, click on **Consumption (3)** and **Select (3)**.
 
-   ![](media/E9T3.2S2.1-0309.png)
+   ![](media/logic-app-creation.png)
 
    ![](media/E9T3.2S2.2-0309.png)
   
@@ -171,7 +171,7 @@ Azure Serverless (Functions and Logic Apps) can be configured to benefit from th
 
 1. Once the Resource is created click on **Go to resource**. From the left menu under Development Tools select **Logic app designer (1)** and click on **Add a trigger (2)**.
 
-   ![](media/api10.png)
+   ![](media/logic-app-designer.png)
 
 1. In the logic app designer **search (1)** and select  **When a HTTP request is received (2)**.
 
@@ -219,10 +219,8 @@ Azure Serverless (Functions and Logic Apps) can be configured to benefit from th
 
         ![](media/E8T3.2S8.4-1901.png)
 
-1. Select **+** to add a new action, search and select **Response**, now **Save** the logic App.
-
-   ![](media/T3.2S8a.png)
-
+1. Select **+** to add a new action, search and select **Response**, now click on **Publish** the logic App changes to save.
+   
 1. Let's add the logic app to API Management. In the API blade select **+ Add API (1)** and the **Logic App (2)** tile
 
    ![](media/p25t3.2p10.png)

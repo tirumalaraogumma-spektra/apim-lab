@@ -70,7 +70,7 @@ The following policy and payload applies for both examples in this section (webh
 
       ![](media/p14t6warning.png)
 
-1. Go to the **Test (1)** section. In the Template parameters area, enter any integers **(2)** for parameters **a** and **b**. Click on **Send (3)**.
+1. Go to the **Test (1)** section. In the Template parameters area, enter any integers **(2)** for parameters **a** and **b** and in Product scope dropdown select **Starter or Unlimited**. Click on **Send (3)**.
 
     ![](media/p14t6p3(1).png)
 

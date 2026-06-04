@@ -101,7 +101,7 @@ First, we need to enable CORS for the domain name of the front end. To achieve t
 
 1. Navigate back to the developer portal to fetch subscription keys. Open the main Developer Portal page, then click on **Profile (1)** in the top menu.
 
-1. Click on the **Show (2)** and copy the Primary key **(3)** of **Starter** and **Unlimited** product subscription and paste it in a text editor for later use.
+1. Click on the **Show (2)** and copy the Primary key **(3)** of **Starter** and **Unlimited** product subscription and paste it in a **Notepad** editor for later use.
 
       ![](./media/p7t4.2s11.png)
         

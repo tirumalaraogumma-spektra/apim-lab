@@ -155,7 +155,9 @@ In this task, you will remove specific response headers from the **Basic Calcula
 
 A frequent requirement is to remove headers, especially ones that return security-related or superfluous information.
 
-1. Go back to the same **Basic Calculator** API. **Add** operation and open the **Policy code editor** under **Outbound processing**.
+1. Go back to the same **Basic Calculator (1)** API. **Add (2)** operation and open the **Policy code editor (3)** under **Outbound processing**.
+
+    ![](media/basic-calcualtor-get-add.png)
 
 1. Add the following outbound policy **(1)** to the **Add** operation to remove specific response headers and click on **Save (2)**.
 

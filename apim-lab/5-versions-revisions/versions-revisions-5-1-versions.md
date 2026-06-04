@@ -78,9 +78,9 @@ Proper version management not only helps organize your API, but it also aids in 
 
       ![APIM Developer Portal Version 2](media/E5T1.2S3-0209.png)
 
-1. Test the `GetPeople` **(1)** operation, click on **Try this operation (2)**, and scroll down click **Send (3)**.
+1. Test the `GetPeople` **(1)** operation, click on **Try this operation (2)**, and in **Subscription (3)** add the **Unlimited subscription key** copied in earlier task in your notepad and scroll down click **Send**.
 
-      ![APIM Developer Portal Test Version](media/E5T1.2S4-0209.png)
+      ![](media/e5-t1-1-2.png)
 
 1. Review the HTTP response that appears below.
 
@@ -95,7 +95,7 @@ Proper version management not only helps organize your API, but it also aids in 
 
 ### What Versions Enable
 
-Now that you have created a new version of the API, you have the ability to introduce breaking changes. Oftentimes times a breaking change in a backend API necessitates an API version change in APIM. Leaving a legacy implementation behind to focus on more contemporary API implementations is also a common versioning use case. Whatever the reason may be, Azure API Management provides a means to abstract breaking changes responsibly and safely.  
+Now that you have created a new version of the API, you have the ability to introduce breaking changes. Oftentimes a breaking change in a backend API necessitates an API version change in APIM. Leaving a legacy implementation behind to focus on more contemporary API implementations is also a common versioning use case. Whatever the reason may be, Azure API Management provides a means to abstract breaking changes responsibly and safely.  
 
 ## Summary
 

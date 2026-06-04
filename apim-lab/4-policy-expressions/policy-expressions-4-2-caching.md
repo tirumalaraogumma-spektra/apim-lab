@@ -22,7 +22,7 @@ Azure API Management can be configured for response caching which can significan
 
       ![APIM Cache Duration](media/p10t2p5.png)
 
-1. Navigate back to the website and configure the Colors website from Exercise 3(Task 4.2) to use the Unlimited subscription URL.
+1. Navigate back to the website and configure the Colors website from **Exercise 3(Task 4.2)** to use the Unlimited subscription URL.
 
 1. Select **Start**.
 

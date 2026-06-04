@@ -82,26 +82,29 @@ In this task, you will view and edit the custom connector that you created in th
 
    ![](media/p22t2p3.png)
 
-1. On the Custom connectors page, click on **New cusom connector (1)** dropdown and select Create from **Azure service (Preview) (2)**.
+1. On the Custom connectors page, click on **New custom connector (1)** dropdown and select Create from **Azure service (Preview) (2)**.
 
    ![](media/E9T2S4-2109.png)
 
-1. On the Create from Azure service )preview) window, select the following options, and click on **Continue (6)**:
+1. On the Create from Azure service (preview) window, select the following options, and click on **Continue (6)**:
 
    - Connector name: **Star Wars (1)**.
-   - Subscription: Select the subscription where your API Management instance is deployed **(1)**.
-   - Resource group: Select the resource group where your API Management instance is deployed **(2)**.
+   - Subscription: Select the subscription where your API Management instance is deployed **(2)**.
    - Azure Service: Select **API Management (3)**.
    - Service name: Select your API Management instance **(4)**.
    - API name: **star-wars (5)**.
 
       ![](media/E9T2S5-1004.png)
 
-1. In the top left corner, click on **1. General** from the drop-down and select **Definition** screen, we need to define a search query string for people so that the Power App can search for character records by name.
+1. In the top left corner, click on **1. General** from the drop-down and select **3. Definition** screen, we need to define a search query string for people so that the Power App can search for character records by name.
 
    ![](media/def.png)
 
-1. In the **Request** section, select **+ Import from sample (1)**. Select **Get (2)** in the Verb option, enter a sample request **URL (3)** with the search query string, and select **Import (4)**:
+1. In **Action** dropdown you can select the get people and get people by id options. 
+
+   ![](media/select-action.png)
+
+1. Scroll down to the **Request** section, select **+ Import from sample (1)**. Select **Get (2)** in the Verb option, enter a sample request **URL (3) given below** with the search query string, and select **Import (4)**:
 
    - **https://apim-dev-hol-ms-<inject key="Deployment ID" enableCopy="false" />.azure-api.net/sw/people?search=Luke**
 
@@ -123,9 +126,12 @@ In this task, you will view and edit the custom connector that you created in th
 
       ![](media/5.png)
 
-1. Repeat step 7 to import for the `getpeoplebyid` action. Provide the ID as `1`.
+1. Repeat step 7 to import for the `getpeoplebyid` action. Provide the ID as `1`. And in step - 7 Request section add this url - https://apim-dev-hol-ms-2253824.azure-api.net/sw/people/1/ and complete the step - 8 also.
 
    >**Note:** Delete if you have other **Actions** Apart from `getpeople` and `getpeoplebyid`.
+
+   > Click on **... icon (1)** and select **delete (2)**.
+   > ![](media/delete-o-operations.png)
 
 1. In the left pane, select **+ New policy** under the **Policies** section.
 
@@ -151,6 +157,8 @@ In this task, you will view and edit the custom connector that you created in th
 
 1. Click on the **tick** mark on the top right, which will update the Connector.
 
+   ![](media/tick-connector.png)
+
 1. Select **5.Test (2)**, from the top left corner **(1)**, and click on **+New connection (3)** in the **Connections** section.
 
       ![](media/E9T2S12-1901.png)
@@ -163,7 +171,9 @@ In this task, you will view and edit the custom connector that you created in th
 
       ![](./media/E9T2S13-2109.png)
 
-1. Navigate back to the **Custom Connectors** page in Power apps portal and click on the pencil icon i.e **Edit**.
+1. Click More options, select Discover all, and scroll down to choose the **Custom Connectors** page in Power apps portal and click on the pencil icon i.e **Edit (2)** for **Star Wars API (1)**.
+
+   ![](media/select-starwars-cc.png)
 
 1. Return to the **Test** page and test each of the API actions, in **getpeople** in the search section type **Luke** and select **Test operations**.
 
