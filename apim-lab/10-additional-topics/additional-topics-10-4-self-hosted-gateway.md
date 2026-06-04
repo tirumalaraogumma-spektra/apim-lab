@@ -136,9 +136,9 @@ There can be multiple Gateway Deployments and multiple Gateway Nodes.  The Gatew
 
     ![](media/workspace-select.png)
 
-1. On the **My Workspace** page, select **New (1)** and select **HTTP (2)**.
+1. On the **My Workspace** page, make sure you selected the **Http (1)** and to request the api you need to add the url link in the **url field (2)**.
 
-    ![](media/p26t4.2p8.png)
+    ![](media/Http-selection.png)
 
 1. Now, in the **Enter URL or paste text (1)**, enter the URL you copied earlier and select **Send (2)**. Observe the response **(3)**.
 

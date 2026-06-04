@@ -176,12 +176,24 @@ In this task, you will configure your Azure API Management instance to access th
 In this task, you will test the newly created operation in the developer portal to ensure that your Azure API Management instance can successfully retrieve the secret from Azure Key Vault using its managed identity and use it in the API operation.
 
 1. Sign in to the developer portal and test this new operation.
+    Developer portal link - **https://apim-dev-hol-ms-<inject key="Deployment ID" enableCopy="false" />.azure-api.net**
 
-1. Notice the request URL will be similar to: **https://apim-dev-hol-ms-<inject key="Deployment ID" enableCopy="false" />.azure-api.net/sw/favorite**
+1. Notice the request URL will be similar to: **https://apim-dev-hol-ms-<inject key="Deployment ID" enableCopy="false" />.azure-api.net/sw/favorite** 
+    > **Note**: The Url should have subscription key of Starter or Unlimited.
 
-1. In the APIs section, select Star Wars and choose the **Get favorite person (1)** operation, then click on **Try this operation (2)**. Finally, paste the **Unlimited or Starter key** you copied to Notepad in earlier task into the **subscription field (3)** and scroll down to click **send** button to
+1. In the APIs section, select **Star Wars** > **Original** and choose the **Get favorite person (1)** operation, then click on **Try this operation (2)**. Finally, paste the **Unlimited or Starter key** you copied to Notepad in earlier task into the **subscription field (3)** and scroll down to click **send** button to request.
+
+    >**Note** If it shows dropdown in subscription  instead of empty field select any value from the list.
 
     ![](media/get-favorite-person.png)
+
+1. Scroll down to HTTP response section to check the status of the request and it shows **200 ok** status
+
+    ![](media/task-5-ok-status.png)
+
+    Scroll down to check more about the response shown in the image.
+
+    ![](media/task-5-details.png)
 
 ---
 ### Summary 
